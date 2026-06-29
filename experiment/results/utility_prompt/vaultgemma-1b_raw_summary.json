@@ -1,0 +1,57 @@
+{
+  "model": "vaultgemma-1b",
+  "model_name": "google/vaultgemma-1b",
+  "version": "raw",
+  "n_total": 600,
+  "n_valid": 0,
+  "n_invalid": 600,
+  "invalid_rate": 1.0,
+  "f1_macro": 0.0,
+  "accuracy": 0.0,
+  "confusion_matrix": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "per_class_f1": {
+    "Low": 0.0,
+    "Medium": 0.0,
+    "High": 0.0,
+    "Critical": 0.0
+  },
+  "fewshot_ids": [
+    "b0c5cd5e-7322-41aa-5bfe-71e09c8c40de",
+    "aab47bbe-f0ed-6c0e-8b87-af8d57fe6356",
+    "077f59e0-1515-8a5e-c5e4-0bf4b9c5d271",
+    "9bc656c2-8b95-45a9-aad7-43584c2f1812"
+  ],
+  "elapsed_s": 801.8175178789534,
+  "raw_output_sample": [
+    "1d11",
+    "1444",
+    "1111",
+    "1111",
+    "8888"
+  ]
+}

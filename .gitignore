@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+experiment/reports/
+anonshield_ext/
+data/mock/cais_mock.json
+*.safetensors
+optimizer.pt
+adapters/
+checkpoints/
+*.key
+.env
+status*.db
+.DS_Store
+
+# Real CAIS data must never be committed (synthetic mock only)
+cais_mock/real_stats.json
+cais_mock/cve_set.json
+*anonimizado*

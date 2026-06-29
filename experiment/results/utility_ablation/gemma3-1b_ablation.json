@@ -1,0 +1,42 @@
+{
+  "run_id": "gemma3-1b_v0_seed42",
+  "model": "unsloth/gemma-3-1b-it",
+  "model_short": "gemma3-1b",
+  "n": 50,
+  "seed": 42,
+  "variant": "v0",
+  "formats": {
+    "format1_truncate_after_basescore": {
+      "f1_raw": 0.24679366866866867,
+      "f1_norm": 0.24679366866866867,
+      "acc_raw": 0.32,
+      "acc_norm": 0.32,
+      "n_eval": 50,
+      "elapsed": 18.752885980997235
+    },
+    "format2_truncate_before_cvss2": {
+      "f1_raw": 0.08695652173913043,
+      "f1_norm": 0.08695652173913043,
+      "acc_raw": 0.16,
+      "acc_norm": 0.16,
+      "n_eval": 50,
+      "elapsed": 18.23415157396812
+    },
+    "format3_truncate_close_dict": {
+      "f1_raw": 0.19370689655172413,
+      "f1_norm": 0.19370689655172413,
+      "acc_raw": 0.26,
+      "acc_norm": 0.26,
+      "n_eval": 50,
+      "elapsed": 17.956419463036582
+    },
+    "format4_natural_lang": {
+      "f1_raw": 0.2086247086247086,
+      "f1_norm": 0.01,
+      "acc_raw": 0.3,
+      "acc_norm": 0.02,
+      "n_eval": 50,
+      "elapsed": 17.990401100949384
+    }
+  }
+}

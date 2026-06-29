@@ -1,0 +1,3 @@
+{"run_id": "vaultgemma-1b_v1_seed42_w0", "variant": "v1", "model": "google/vaultgemma-1b", "seed": 42, "kind": "step", "global_step": 5, "epoch": 1, "loss": 2.5923728942871094, "lr": 0.0, "vram_mb": 6808, "wallclock_s": 46.232885542995064}
+{"run_id": "vaultgemma-1b_v1_seed42_w0", "variant": "v1", "model": "google/vaultgemma-1b", "seed": 42, "kind": "epoch", "epoch": 1.0, "global_step": 5, "train_loss_mean": 2.6198611232969498, "train_loss_std": 0.11025468492132141, "train_loss_min": 2.247831106185913, "train_loss_max": 2.8641202449798584, "wallclock_s": 51.93323099199915}
+{"run_id": "vaultgemma-1b_v1_seed42_w0", "variant": "v1", "model": "google/vaultgemma-1b", "seed": 42, "kind": "end", "global_step": 5, "epoch": 1.0, "wallclock_s": 52.40209322600276}

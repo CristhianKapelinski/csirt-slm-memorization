@@ -1,0 +1,39 @@
+[project]
+name = "csirt-slm-memorization"
+version = "1.0.0"
+description = "Artifact for 'Decomposing Memorization Reduction in Privacy-Preserving Fine-Tuning of SLMs for CSIRTs' (BRACIS 2026)"
+requires-python = ">=3.12"
+authors = [
+    { name = "Cristhian Kapelinski" },
+    { name = "Diego Kreutz" },
+]
+license = { text = "MIT" }
+readme = "README.md"
+
+[project.optional-dependencies]
+reproduce = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+]
+train = [
+    "torch",
+    "transformers",
+    "accelerate",
+    "peft",
+    "datasets",
+    "bitsandbytes",
+    "opacus",
+    "pandas",
+    "sentencepiece",
+    "protobuf",
+    "einops",
+    "faker",
+    "pyyaml",
+    "tqdm",
+]
+figures = [
+    "matplotlib>=3.7",
+]
+
+[tool.setuptools]
+py-modules = []

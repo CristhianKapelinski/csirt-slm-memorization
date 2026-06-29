@@ -1,0 +1,42 @@
+{
+  "run_id": "qwen3-1.7b_v0_seed42",
+  "model": "Qwen/Qwen3-1.7B",
+  "model_short": "qwen3-1.7b",
+  "n": 50,
+  "seed": 42,
+  "variant": "v0",
+  "formats": {
+    "format1_truncate_after_basescore": {
+      "f1_raw": 0.23959252971137524,
+      "f1_norm": 0.23959252971137524,
+      "acc_raw": 0.3,
+      "acc_norm": 0.3,
+      "n_eval": 50,
+      "elapsed": 27.003663163050078
+    },
+    "format2_truncate_before_cvss2": {
+      "f1_raw": 0.1906926406926407,
+      "f1_norm": 0.1906926406926407,
+      "acc_raw": 0.24,
+      "acc_norm": 0.24,
+      "n_eval": 50,
+      "elapsed": 26.43359806505032
+    },
+    "format3_truncate_close_dict": {
+      "f1_raw": 0.2587252368647718,
+      "f1_norm": 0.2587252368647718,
+      "acc_raw": 0.34,
+      "acc_norm": 0.34,
+      "n_eval": 50,
+      "elapsed": 26.99686151999049
+    },
+    "format4_natural_lang": {
+      "f1_raw": 0.14520202020202022,
+      "f1_norm": 0.00980392156862745,
+      "acc_raw": 0.2,
+      "acc_norm": 0.02,
+      "n_eval": 50,
+      "elapsed": 27.096303457044996
+    }
+  }
+}

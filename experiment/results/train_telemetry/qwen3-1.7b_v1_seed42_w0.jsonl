@@ -1,0 +1,3 @@
+{"run_id": "qwen3-1.7b_v1_seed42_w0", "variant": "v1", "model": "Qwen/Qwen3-1.7B", "seed": 42, "kind": "step", "global_step": 5, "epoch": 1, "loss": 2.465315341949463, "lr": 0.0, "vram_mb": 5787, "wallclock_s": 64.73900142498314}
+{"run_id": "qwen3-1.7b_v1_seed42_w0", "variant": "v1", "model": "Qwen/Qwen3-1.7B", "seed": 42, "kind": "epoch", "epoch": 1.0, "global_step": 5, "train_loss_mean": 2.4212178428967794, "train_loss_std": 0.15836733729744723, "train_loss_min": 1.8792299032211304, "train_loss_max": 2.7927212715148926, "wallclock_s": 72.59394208999583}
+{"run_id": "qwen3-1.7b_v1_seed42_w0", "variant": "v1", "model": "Qwen/Qwen3-1.7B", "seed": 42, "kind": "end", "global_step": 5, "epoch": 1.0, "wallclock_s": 73.44396839899127}

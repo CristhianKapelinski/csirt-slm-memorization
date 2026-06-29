@@ -1,0 +1,42 @@
+{
+  "run_id": "llama32-3b_v0_seed42",
+  "model": "unsloth/Llama-3.2-3B-Instruct",
+  "model_short": "llama32-3b",
+  "n": 50,
+  "seed": 42,
+  "variant": "v0",
+  "formats": {
+    "format1_truncate_after_basescore": {
+      "f1_raw": 0.32350230414746545,
+      "f1_norm": 0.32350230414746545,
+      "acc_raw": 0.44,
+      "acc_norm": 0.44,
+      "n_eval": 50,
+      "elapsed": 39.156516338000074
+    },
+    "format2_truncate_before_cvss2": {
+      "f1_raw": 0.25190737964351156,
+      "f1_norm": 0.25190737964351156,
+      "acc_raw": 0.36,
+      "acc_norm": 0.36,
+      "n_eval": 50,
+      "elapsed": 38.483749654958956
+    },
+    "format3_truncate_close_dict": {
+      "f1_raw": 0.2409361471861472,
+      "f1_norm": 0.2409361471861472,
+      "acc_raw": 0.3,
+      "acc_norm": 0.3,
+      "n_eval": 50,
+      "elapsed": 38.17408485908527
+    },
+    "format4_natural_lang": {
+      "f1_raw": 0.15207373271889402,
+      "f1_norm": 0.00980392156862745,
+      "acc_raw": 0.16,
+      "acc_norm": 0.02,
+      "n_eval": 50,
+      "elapsed": 41.54984968598001
+    }
+  }
+}

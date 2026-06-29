@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this artifact or its findings, please cite the paper below."
+title: "Decomposing Memorization Reduction in Privacy-Preserving Fine-Tuning of SLMs for CSIRTs"
+type: software
+license: MIT
+repository-code: "https://github.com/CristhianKapelinski/csirt-slm-memorization"
+authors:
+  - given-names: Cristhian
+    family-names: Kapelinski
+    orcid: "https://orcid.org/0009-0005-5750-022X"
+    affiliation: "Universidade Federal do Pampa (UNIPAMPA)"
+  - given-names: Diego
+    family-names: Kreutz
+    orcid: "https://orcid.org/0000-0003-0830-0238"
+    affiliation: "Universidade Federal do Pampa (UNIPAMPA)"
+preferred-citation:
+  type: conference-paper
+  title: "Decomposing Memorization Reduction in Privacy-Preserving Fine-Tuning of SLMs for CSIRTs"
+  authors:
+    - given-names: Cristhian
+      family-names: Kapelinski
+      orcid: "https://orcid.org/0009-0005-5750-022X"
+    - given-names: Diego
+      family-names: Kreutz
+      orcid: "https://orcid.org/0000-0003-0830-0238"
+  collection-title: "Proceedings of the Brazilian Conference on Intelligent Systems (BRACIS 2026)"
+  conference:
+    name: "Brazilian Conference on Intelligent Systems (BRACIS 2026)"
+  publisher:
+    name: "Springer"
+  year: 2026

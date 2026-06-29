@@ -1,0 +1,42 @@
+{
+  "run_id": "vaultgemma-1b_v0_seed42",
+  "model": "google/vaultgemma-1b",
+  "model_short": "vaultgemma-1b",
+  "n": 50,
+  "seed": 42,
+  "variant": "v0",
+  "formats": {
+    "format1_truncate_after_basescore": {
+      "f1_raw": 0.12365984405458089,
+      "f1_norm": 0.12365984405458089,
+      "acc_raw": 0.16,
+      "acc_norm": 0.16,
+      "n_eval": 50,
+      "elapsed": 14.992941711097956
+    },
+    "format2_truncate_before_cvss2": {
+      "f1_raw": 0.1143317230273752,
+      "f1_norm": 0.1143317230273752,
+      "acc_raw": 0.22,
+      "acc_norm": 0.22,
+      "n_eval": 50,
+      "elapsed": 14.401511860080063
+    },
+    "format3_truncate_close_dict": {
+      "f1_raw": 0.14780308258569128,
+      "f1_norm": 0.14780308258569128,
+      "acc_raw": 0.22,
+      "acc_norm": 0.22,
+      "n_eval": 50,
+      "elapsed": 14.372544441954233
+    },
+    "format4_natural_lang": {
+      "f1_raw": 0.16944444444444445,
+      "f1_norm": 0.010416666666666666,
+      "acc_raw": 0.24,
+      "acc_norm": 0.02,
+      "n_eval": 50,
+      "elapsed": 14.919925702968612
+    }
+  }
+}

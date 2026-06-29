@@ -1,0 +1,62 @@
+[
+  {
+    "id": "B-IP4-01",
+    "type": "ipv4_rfc1918",
+    "field": "asset.display_ipv4_address",
+    "value": "10.143.27.91"
+  },
+  {
+    "id": "B-IP4-02",
+    "type": "ipv4_rfc1918",
+    "field": "asset.display_ipv4_address",
+    "value": "192.168.42.18"
+  },
+  {
+    "id": "B-IP6-01",
+    "type": "ipv6_ula",
+    "field": "asset.display_ipv6_address",
+    "value": "fd12:3456:789a:bcde::42"
+  },
+  {
+    "id": "B-IP6-02",
+    "type": "ipv6_ula",
+    "field": "asset.display_ipv6_address",
+    "value": "fd7e:3a91:cafe:0001::1b"
+  },
+  {
+    "id": "B-FQDN-01",
+    "type": "fqdn_real",
+    "field": "asset.host_name",
+    "value": "prod-srv-042.interno.rnp.br"
+  },
+  {
+    "id": "B-FQDN-02",
+    "type": "fqdn_real",
+    "field": "asset.host_name",
+    "value": "db-cluster-03.cais.unipampa.edu.br"
+  },
+  {
+    "id": "B-MAC-01",
+    "type": "mac_oui",
+    "field": "asset.display_mac_address",
+    "value": "00:14:22:b8:3f:c1"
+  },
+  {
+    "id": "B-MAC-02",
+    "type": "mac_oui",
+    "field": "asset.display_mac_address",
+    "value": "00:1a:a1:5d:7e:42"
+  },
+  {
+    "id": "B-ASSET-01",
+    "type": "asset_name_real",
+    "field": "asset.name",
+    "value": "db-cluster-cais-03"
+  },
+  {
+    "id": "B-ASSET-02",
+    "type": "asset_name_real",
+    "field": "asset.name",
+    "value": "firewall-rnp-br-edge-07"
+  }
+]

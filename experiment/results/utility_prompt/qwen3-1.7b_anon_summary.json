@@ -1,0 +1,57 @@
+{
+  "model": "qwen3-1.7b",
+  "model_name": "Qwen/Qwen3-1.7B",
+  "version": "anon",
+  "n_total": 600,
+  "n_valid": 534,
+  "n_invalid": 66,
+  "invalid_rate": 0.11,
+  "f1_macro": 0.16747291491231403,
+  "accuracy": 0.2640449438202247,
+  "confusion_matrix": [
+    [
+      11,
+      4,
+      115,
+      1
+    ],
+    [
+      4,
+      10,
+      168,
+      1
+    ],
+    [
+      2,
+      3,
+      118,
+      10
+    ],
+    [
+      0,
+      3,
+      82,
+      2
+    ]
+  ],
+  "per_class_f1": {
+    "Low": 0.14864864864864866,
+    "Medium": 0.09852216748768473,
+    "High": 0.38311688311688313,
+    "Critical": 0.039603960396039604
+  },
+  "fewshot_ids": [
+    "b0c5cd5e-7322-41aa-5bfe-71e09c8c40de",
+    "aab47bbe-f0ed-6c0e-8b87-af8d57fe6356",
+    "077f59e0-1515-8a5e-c5e4-0bf4b9c5d271",
+    "9bc656c2-8b95-45a9-aad7-43584c2f1812"
+  ],
+  "elapsed_s": 1529.90729881078,
+  "raw_output_sample": [
+    " High\nThe provided",
+    " High\nThe given",
+    " High\nThe provided",
+    " High\nThe given",
+    " Medium\n\nRecord:"
+  ]
+}

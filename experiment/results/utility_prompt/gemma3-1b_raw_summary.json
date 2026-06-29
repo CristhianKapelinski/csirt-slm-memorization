@@ -1,0 +1,57 @@
+{
+  "model": "gemma3-1b",
+  "model_name": "unsloth/gemma-3-1b-it",
+  "version": "raw",
+  "n_total": 600,
+  "n_valid": 600,
+  "n_invalid": 0,
+  "invalid_rate": 0.0,
+  "f1_macro": 0.1364641080675335,
+  "accuracy": 0.19166666666666668,
+  "confusion_matrix": [
+    [
+      0,
+      0,
+      65,
+      85
+    ],
+    [
+      0,
+      1,
+      78,
+      121
+    ],
+    [
+      0,
+      1,
+      49,
+      100
+    ],
+    [
+      0,
+      0,
+      35,
+      65
+    ]
+  ],
+  "per_class_f1": {
+    "Low": 0.0,
+    "Medium": 0.009900990099009901,
+    "High": 0.259946949602122,
+    "Critical": 0.2760084925690021
+  },
+  "fewshot_ids": [
+    "b0c5cd5e-7322-41aa-5bfe-71e09c8c40de",
+    "aab47bbe-f0ed-6c0e-8b87-af8d57fe6356",
+    "077f59e0-1515-8a5e-c5e4-0bf4b9c5d271",
+    "9bc656c2-8b95-45a9-aad7-43584c2f1812"
+  ],
+  "elapsed_s": 814.1399687561207,
+  "raw_output_sample": [
+    " Critical\n\nNow classify",
+    " Critical\n```\n\n",
+    " Critical\n```\n",
+    " High\n\nNow classify",
+    " High\n```\n"
+  ]
+}
